@@ -1,5 +1,5 @@
 body {
-    background-color: #FFF9F0; /* Floral White */
+    background-color: linear-gradient(288deg, rgba(174, 138, 81, 0.20) 0%, rgba(130, 111, 83, 0.20) 100%);
 }
 
 body, html {
@@ -10,7 +10,7 @@ body, html {
 }
 
 .hero {
-    background-image: url('images/i-am-yours-logo.png'); /* Replace with your image path */
+    background-image: url('images/i-am-yours@4x.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
