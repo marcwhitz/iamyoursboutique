@@ -7,6 +7,9 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero {
@@ -35,4 +38,20 @@ body, html {
 .hero p {
     font-size: 1.5em;
     margin: 10px 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align items vertically */
+    text-align: center; /* Center text within the div */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.intro img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
 }
