@@ -74,8 +74,9 @@ html {
 
 #promo {
     display: grid;
-    place-items: center; /* Centers content both horizontally and vertically */
+    justify-content: center; /* Centers content horizontally */
     height: 100vh; /* Full viewport height for demonstration */
+    align-items: flex-start;
 }
 
 .promo img {
