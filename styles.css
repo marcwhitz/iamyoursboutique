@@ -81,6 +81,10 @@ body, html {
     height: auto;
 }
 
+.spacer { 
+    flex-grow: 1; /* Takes up remaining space, pushing the button down */ 
+}
+
 .text-wrapper {
     padding: 20px; /* Adds space inside the container */
     margin: 20px auto; /* Centers the container and adds space outside */
