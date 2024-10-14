@@ -105,3 +105,10 @@ html {
     text-align: center; /* Centers the text inside the container */
     color: white;
 }
+
+.wrapper {
+    max-width: 1200px; /* Sets a maximum width for the wrapper */
+    margin: 0 auto; /* Centers the wrapper horizontally */
+    padding: 20px; /* Adds padding inside the wrapper */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
