@@ -69,14 +69,10 @@ body, html {
 }
 
 .promo {
-    display: grid;
-    place-items: center; /* Centers both horizontally and vertically */
-    height: auto;
-}
-
-.promo img {
-    max-width: 100%; /* Ensures the image is responsive */
-    height: auto;
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 75%; /* Sets the maximum width to 75% of the parent container */
+    height: auto; /* Maintains the aspect ratio */
 }
 
 .spacer { 
