@@ -70,6 +70,7 @@ html {
 .intro img {
     max-width: 100%; /* Ensure the image is responsive */
     height: auto;
+    margin-top: 1rem;
 }
 
 #promo {
@@ -95,9 +96,9 @@ html {
 }
 
 .text-wrapper {
-    padding: 20px; /* Adds space inside the container */
+    padding: 40px 60px 40px 60px; /* Adds space inside the container */
     margin: 60px auto; /* Centers the container and adds space outside */
-    max-width: 75%; /* Sets a maximum width for the container */
+    max-width: 85%; /* Sets a maximum width for the container */
     background-color: #56767E; /* Sets a background color */
     border: 1px solid #ddd; /* Adds a border around the container */
     border-radius: 8px; /* Rounds the corners of the container */
