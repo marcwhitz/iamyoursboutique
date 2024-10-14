@@ -68,9 +68,13 @@ body, html {
     height: auto;
 }
 
-.promo {
-    display: block; /* Ensures the image is treated as a block element */
-    margin: 0 auto; /* Centers the image horizontally */
+#promo {
+    display: grid;
+    place-items: center; /* Centers content both horizontally and vertically */
+    height: 100vh; /* Full viewport height for demonstration */
+}
+
+.promo img {
     max-width: 75%; /* Sets the maximum width to 75% of the parent container */
     height: auto; /* Maintains the aspect ratio */
 }
