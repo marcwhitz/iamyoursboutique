@@ -37,6 +37,21 @@ body, html {
     margin: 10px 0;
 }
 
+.hero-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #56767E; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #e64a19; /* Button hover color */
+}
+
 .intro {
     display: flex;
     justify-content: center;
@@ -52,11 +67,22 @@ body, html {
     height: auto;
 }
 
+.promo {
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    height: 100vh; /* Full viewport height for demonstration */
+}
+
+.promo img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto;
+}
+
 .text-wrapper {
     padding: 20px; /* Adds space inside the container */
     margin: 20px auto; /* Centers the container and adds space outside */
     max-width: 75%; /* Sets a maximum width for the container */
-    background-color: ##56767E; /* Sets a background color */
+    background-color: #56767E; /* Sets a background color */
     border: 1px solid #ddd; /* Adds a border around the container */
     border-radius: 8px; /* Rounds the corners of the container */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
