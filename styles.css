@@ -73,14 +73,20 @@ html {
 }
 
 #promo {
-    display: grid;
+    display: flex;
     justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
     height: 100vh; /* Full viewport height for demonstration */
-    align-items: flex-start;
+}
+
+.promo {
+    max-width: 75%; /* Sets the maximum width to 75% of the parent container */
+    width: 100%; /* Ensures the div can shrink to fit the image */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
 
 .promo img {
-    max-width: 75%; /* Sets the maximum width to 75% of the parent container */
+    width: 100%; /* Ensures the image fills the parent container */
     height: auto; /* Maintains the aspect ratio */
 }
 
