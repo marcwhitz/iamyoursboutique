@@ -9,6 +9,10 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hero {
     background-image: url('images/i-am-yours@4x.png'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the container */
