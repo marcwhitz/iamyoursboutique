@@ -99,6 +99,15 @@ html {
     justify-content: space-between; /* Distributes space between items */
     align-items: center; /* Aligns items vertically in the center */
     flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+    padding: 20px; /* Adds space inside the container */
+    margin: 60px auto; /* Centers the container and adds space outside */
+    max-width: 75%; /* Sets a maximum width for the container */
+    background-color: #56767E; /* Sets a background color */
+    border: 1px solid #ddd; /* Adds a border around the container */
+    border-radius: 8px; /* Rounds the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    text-align: center; /* Centers the text inside the container */
+    color: white;
 }
 
 .painted-tree, .info {
@@ -116,5 +125,18 @@ html {
     max-width: 1200px; /* Sets a maximum width for the wrapper */
     margin: 0 auto; /* Centers the wrapper horizontally */
     padding: 20px; /* Adds padding inside the wrapper */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* FOOTER */
+
+.site-footer {
+    background-color: #475153; /* Set the background color */
+    color: #fff; /* Set the text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding for spacing */
+    position: relative; /* Allows for positioning adjustments if needed */
+    bottom: 0; /* Positions the footer at the bottom */
+    width: 100%; /* Ensures the footer spans the full width of the page */
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
