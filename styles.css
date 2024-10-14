@@ -22,7 +22,6 @@ body, html {
     text-align: center;
     position: relative;
     max-width: 100%; /* Ensure the image is responsive */
-    margin-bottom: 20px; /* Space between the image and the text */
     padding-bottom: 20px; /* Optional: Space between the button and the bottom */
 }
 
@@ -41,7 +40,6 @@ body, html {
 }
 
 .hero-button {
-    /* display: inline-block; */
     padding: 10px 20px;
     background-color: #56767E; /* Button background color */
     color: white; /* Button text color */
