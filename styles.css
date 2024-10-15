@@ -11,17 +11,21 @@
 body {
     background: linear-gradient(288deg, rgba(174, 138, 81, 0.20) 0%, rgba(130, 111, 83, 0.20) 100%);
     font-family: 'Mitchaella', sans-serif;
+    font-size: 20px;
 }
 
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+h1 {
+
 }
 
 .hero {
@@ -141,6 +145,8 @@ html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
     text-align: center; /* Centers the text inside the container */
     color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
 /* FOOTER */
