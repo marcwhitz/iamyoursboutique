@@ -22,7 +22,7 @@ html {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
     position: relative;
     max-width: 100%; /* Ensure the image is responsive */
@@ -54,7 +54,15 @@ html {
 }
 
 .hero-button:hover {
-    background-color: #e64a19; /* Button hover color */
+    background-color: #5798A8; /* Button hover color */
+}
+
+.wrapper {
+    max-width: 1200px; /* Sets a maximum width for the wrapper */
+    margin: 0 auto; /* Centers the wrapper horizontally */
+    padding: 20px; /* Adds padding inside the wrapper */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    margin-top: 45rem;
 }
 
 .intro {
@@ -105,13 +113,6 @@ html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
     text-align: center; /* Centers the text inside the container */
     color: white;
-}
-
-.wrapper {
-    max-width: 1200px; /* Sets a maximum width for the wrapper */
-    margin: 0 auto; /* Centers the wrapper horizontally */
-    padding: 20px; /* Adds padding inside the wrapper */
-    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
 
 /* FOOTER */
