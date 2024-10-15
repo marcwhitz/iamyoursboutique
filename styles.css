@@ -68,7 +68,7 @@ html {
     transition: background-color 0.3s;
 }
 
-.info-button, .promo-button:hover {
+.info-button:hover, .promo-button:hover {
     background-color: #5798A8; /* Button hover color */
 }
 
@@ -77,7 +77,7 @@ html {
     margin: 0 auto; /* Centers the wrapper horizontally */
     padding: 20px; /* Adds padding inside the wrapper */
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-    margin-top: 45rem;
+    margin-top: 5rem;
 }
 
 .intro {
