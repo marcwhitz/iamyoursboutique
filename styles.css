@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'Mitchaella';
+    src: url('fonts/mitchaella-mitchaella-regular-modern-unique-script-400.woff2') format('woff2'),
+         url('fonts/mitchaella-mitchaella-regular-modern-unique-script-400.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background: linear-gradient(288deg, rgba(174, 138, 81, 0.20) 0%, rgba(130, 111, 83, 0.20) 100%);
+    font-family: 'Mitchaella', sans-serif;
 }
 
 body, html {
@@ -162,6 +171,8 @@ html {
 
     .info-button, .promo-button {
         margin-top: 10px; /* Adjust margin for spacing */
+        width: 145px;
+        padding: 15px 0;
     }
 
     .button-container {
