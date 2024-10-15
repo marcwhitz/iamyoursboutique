@@ -59,7 +59,7 @@ html {
 }
 
 .info-button, .promo-button {
-    width: 150px; /* Setting a fixed width */
+    width: 100px; /* Setting a fixed width */
     padding: 10px 0;
     background-color: #56767E; /* Button background color */
     color: white; /* Button text color */
@@ -143,4 +143,32 @@ html {
     bottom: 0; /* Positions the footer at the bottom */
     width: 100%; /* Ensures the footer spans the full width of the page */
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em; /* Smaller font size for mobile */
+    }
+
+    .hero p {
+        font-size: 1.2em; /* Adjust paragraph font size */
+    }
+
+    .info-button, .promo-button {
+        width: 100%; /* Full width for buttons on mobile */
+        margin-top: 10px; /* Adjust margin for spacing */
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+    }
+
+    .text-wrapper {
+        padding: 20px; /* Reduce padding for mobile */
+    }
+
+    .wrapper {
+        padding: 10px; /* Reduce padding for mobile */
+    }
 }
