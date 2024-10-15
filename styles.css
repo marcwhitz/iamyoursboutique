@@ -59,12 +59,13 @@ html {
 }
 
 .info-button, .promo-button {
-    flex: 1;
+    width: 150px; /* Setting a fixed width */
     padding: 10px 0;
     background-color: #56767E; /* Button background color */
     color: white; /* Button text color */
     text-decoration: none;
     border-radius: 5px;
+    text-align: center; /* Center text within the button */
     margin-top: 20px;
     transition: background-color 0.3s;
 }
