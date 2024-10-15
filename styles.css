@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'Mitchaella';
     src: url('fonts/mitchaella-mitchaella-regular-modern-unique-script-400.woff2') format('woff2'),
-         url('fonts/mitchaella-mitchaella-regular-modern-unique-script-400.woff') format('woff');
+         url('fonts/mitchaella-mitchaella-regular-modern-unique-script-400.woff') format('woff'),
+         url('fonts/mitchaella-mitchaella-regular-modern-unique-script-400.otf') format('opentype'),
+         url('fonts/mitchaella-mitchaella-regular-modern-unique-script-400.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -27,7 +29,7 @@ html {
     background-size: contain; /* Ensures the image is contained within the container */
     background-position: center; /* Centers the image within the container */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 90vh; /* Viewport height */
+    height: 92vh; /* Viewport height */
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center;
