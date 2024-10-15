@@ -170,7 +170,8 @@ h1 {
 /* Styles for mobile devices */
 @media (max-width: 768px) {
     .hero {
-        height: 85vh;
+        height: 35vh;
+        margin-bottom: 20rem;
     }
     
     .hero h1 {
@@ -189,6 +190,7 @@ h1 {
 
     .button-container {
         flex-direction: column; /* Stack buttons vertically */
+        gap: 30px;
     }
 
     .text-wrapper {
