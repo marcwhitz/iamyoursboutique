@@ -72,6 +72,8 @@ h1 {
     display: flex; /* Enables flexbox layout */
     justify-content: center; /* Centers the buttons horizontally */
     gap: 50px; /* Adds space between the buttons */
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .info-button, .promo-button {
