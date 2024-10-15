@@ -172,4 +172,8 @@ html {
         padding: 10px; /* Reduce padding for mobile */
         margin-top: -2.5rem;
     }
+
+    #promo {
+        margin: 0 0 4rem 0;
+    }
 }
