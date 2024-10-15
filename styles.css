@@ -24,10 +24,6 @@ html {
     scroll-behavior: smooth;
 }
 
-h1 {
-
-}
-
 .hero {
     background-image: url('images/i-am-yours@4x.png'); /* Replace with your image path */
     background-size: contain; /* Ensures the image is contained within the container */
@@ -100,6 +96,17 @@ h1 {
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
     margin-top: 6.5rem;
 }
+
+.floral {
+    margin-top: auto; /* Ensures the floral image is at the bottom */
+}
+
+.floral img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+}
+
+/* INTRO SECTION */
 
 .intro {
     display: flex;
