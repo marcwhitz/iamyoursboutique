@@ -31,6 +31,15 @@ html {
 
 .hero-content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 90vh;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    padding-bottom: 20px;
 }
 
 .hero h1 {
@@ -43,7 +52,13 @@ html {
     margin: 10px 0;
 }
 
-.hero-button {
+.button-container {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers the buttons horizontally */
+    gap: 10px; /* Adds space between the buttons */
+}
+
+.info-button, .promo-button {
     padding: 10px 20px;
     background-color: #56767E; /* Button background color */
     color: white; /* Button text color */
@@ -53,7 +68,7 @@ html {
     transition: background-color 0.3s;
 }
 
-.hero-button:hover {
+.info-button, .promo-button:hover {
     background-color: #5798A8; /* Button hover color */
 }
 
