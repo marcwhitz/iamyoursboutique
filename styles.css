@@ -59,7 +59,8 @@ html {
 }
 
 .info-button, .promo-button {
-    padding: 10px 20px;
+    flex: 1;
+    padding: 10px 0;
     background-color: #56767E; /* Button background color */
     color: white; /* Button text color */
     text-decoration: none;
@@ -77,7 +78,7 @@ html {
     margin: 0 auto; /* Centers the wrapper horizontally */
     padding: 20px; /* Adds padding inside the wrapper */
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-    margin-top: 5rem;
+    margin-top: 6.5rem;
 }
 
 .intro {
