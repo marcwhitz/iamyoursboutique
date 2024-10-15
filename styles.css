@@ -64,11 +64,11 @@ html {
 .button-container {
     display: flex; /* Enables flexbox layout */
     justify-content: center; /* Centers the buttons horizontally */
-    gap: 10px; /* Adds space between the buttons */
+    gap: 50px; /* Adds space between the buttons */
 }
 
 .info-button, .promo-button {
-    width: 100px; /* Setting a fixed width */
+    width: 150px; /* Setting a fixed width */
     padding: 10px 0;
     background-color: #56767E; /* Button background color */
     color: white; /* Button text color */
