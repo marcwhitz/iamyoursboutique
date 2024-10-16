@@ -24,6 +24,8 @@ html {
     scroll-behavior: smooth;
 }
 
+/* HERO SECTION */
+
 .hero {
     background-image: url('images/i-am-yours@4x.png'); /* Replace with your image path */
     background-size: contain; /* Ensures the image is contained within the container */
@@ -104,6 +106,20 @@ html {
 .floral img {
     max-width: 100%; /* Ensure the image is responsive */
     height: auto;
+}
+
+/* FEATURED SECTION */
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* Space between columns */
+    width: 100%; /* Full width */
+}
+
+.image-grid img {
+    width: 100%; /* Image fills the grid cell */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* INTRO SECTION */
