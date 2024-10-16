@@ -273,6 +273,10 @@ html {
         margin: 80px auto;
     }
 
+    .featured-header {
+        padding: 2rem;
+    }
+
     .image-row {
         flex-direction: column; /* Stack items vertically */
     }
