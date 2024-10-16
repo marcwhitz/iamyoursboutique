@@ -247,8 +247,13 @@ html {
 
 .footer-content {
     display: flex;
-    align-items: center; /* Aligns items vertically in the center */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
     width: 100%;
+}
+
+.follow-text {
+    margin-bottom: 10px; /* Space between text and icons */
 }
 
 .social-media-icons {
