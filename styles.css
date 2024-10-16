@@ -116,7 +116,9 @@ html {
 
 .featured-header {
     margin: 0 auto; /* Centers the header if it has a specific width */
-    padding: 20px 0; /* Optional: Adds vertical spacing */
+    padding: 4rem; /* Optional: Adds vertical spacing */
+    font-size: 4rem;
+    letter-spacing: 2px;
 }
 
 .image-row {
