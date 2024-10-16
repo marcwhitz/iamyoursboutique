@@ -235,14 +235,12 @@ html {
     flex-direction: column;
     align-items: flex-start; /* Aligns items to the left */
     background: linear-gradient(288deg, #465254 0.78%, #4F7880 97.95%);
-    /* background-color: #475153; Set the background color */
-    color: #fff; /* Set the text color */
-    text-align: center; /* Center the text */
-    padding: 20px; /* Add padding for spacing */
-    position: relative; /* Allows for positioning adjustments if needed */
-    bottom: 0; /* Positions the footer at the bottom */
-    width: 100%; /* Ensures the footer spans the full width of the page */
-    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-content {
@@ -259,16 +257,14 @@ html {
 .social-media-icons {
     display: flex;
     gap: 10px; /* Space between icons */
-    margin-right: auto; /* Pushes the rest of the content to the right */
 }
 
-.sharethis-inline-share-buttons,
-p {
+.sharethis-inline-share-buttons, p {
     margin-left: 20px; /* Optional: Space between elements */
 }
 
 .social-media-icons a img {
-    width: 24px; /* Set the size of the icons */
+    width: 24px;
     height: 24px;
     display: block;
 }
