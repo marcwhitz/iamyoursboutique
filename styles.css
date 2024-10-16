@@ -114,8 +114,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    max-width: 100%; /* Ensures the row does not exceed the container width */
-    overflow: hidden; /* Prevents overflow */
+    width: 100%; /* Ensures the row does not exceed the container width */
     box-sizing: border-box; /* Includes padding and border in the element's total width */
     margin: 0 auto; /* Centers the row horizontally */
 }
@@ -127,7 +126,7 @@ html {
 }
 
 .image-column img {
-    width: auto; /* Adjusts width to maintain aspect ratio */
+    width: 100%; /* Adjusts width to maintain aspect ratio */
     height: auto; /* Set a fixed height for all images */
     object-fit: cover; /* Ensures the image covers the set height */
 }
