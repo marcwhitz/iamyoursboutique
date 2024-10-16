@@ -231,6 +231,9 @@ html {
 /* FOOTER */
 
 .site-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
     background: linear-gradient(288deg, #465254 0.78%, #4F7880 97.95%);
     /* background-color: #475153; Set the background color */
     color: #fff; /* Set the text color */
@@ -240,6 +243,18 @@ html {
     bottom: 0; /* Positions the footer at the bottom */
     width: 100%; /* Ensures the footer spans the full width of the page */
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 10px; /* Space between icons */
+    margin-bottom: 10px; /* Space below the icons */
+}
+
+.social-media-icons a img {
+    width: 24px; /* Set the size of the icons */
+    height: 24px;
+    display: block;
 }
 
 /* Styles for mobile devices */
