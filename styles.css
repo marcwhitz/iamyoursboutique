@@ -245,10 +245,21 @@ html {
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
 
+.footer-content {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    width: 100%;
+}
+
 .social-media-icons {
     display: flex;
     gap: 10px; /* Space between icons */
-    margin-bottom: 10px; /* Space below the icons */
+    margin-right: auto; /* Pushes the rest of the content to the right */
+}
+
+.sharethis-inline-share-buttons,
+p {
+    margin-left: 20px; /* Optional: Space between elements */
 }
 
 .social-media-icons a img {
