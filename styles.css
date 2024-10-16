@@ -127,7 +127,7 @@ html {
 
 .image-column img {
     width: 100%; /* Adjusts width to maintain aspect ratio */
-    height: auto; /* Set a fixed height for all images */
+    height: 30rem; /* Set a fixed height for all images */
     object-fit: cover; /* Ensures the image covers the set height */
 }
 
