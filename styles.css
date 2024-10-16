@@ -180,17 +180,25 @@ html {
     justify-content: center; /* Centers content horizontally */
     align-items: center; /* Centers content vertically */
     margin: 4rem 0 4rem 0;
+    text-align: center; /* Centers content within the section */
 }
 
 .container {
     max-width: 75%; /* Sets the maximum width to 75% of the parent container */
     width: 100%; /* Allows the container to shrink to fit the image */
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    margin-bottom: 20px; /* Adds space between the image and the text */
 }
 
 .container img {
     width: 100%; /* Ensures the image fills the parent container */
     height: auto; /* Maintains the aspect ratio */
+}
+
+.promo-text {
+    margin-top: 0; /* Removes any default margin that might push the text down */
+    padding: 10px; /* Optional: Adds padding around the text */
+    font-size: 1em; /* Ensures text is readable */
 }
 
 .spacer { 
