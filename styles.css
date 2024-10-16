@@ -199,6 +199,15 @@ html {
     margin-top: 0; /* Removes any default margin that might push the text down */
     padding: 10px; /* Optional: Adds padding around the text */
     font-size: 1em; /* Ensures text is readable */
+    letter-spacing: 2px;
+}
+
+.promo-text p {
+    display: inline; /* Ensures the text is inline by default */
+}
+
+.promo-text a {
+    display: inline; /* Ensures the link is inline by default */
 }
 
 .spacer { 
@@ -275,6 +284,11 @@ html {
 
     #promo {
         margin: 0 0 4rem 0;
+    }
+
+    .promo-text a::before {
+        content: "\A"; /* Inserts a line break */
+        white-space: pre; /* Preserves the line break */
     }
 
     .container {
