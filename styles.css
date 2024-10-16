@@ -110,6 +110,15 @@ html {
 
 /* FEATURED SECTION */
 
+.featured-items {
+    text-align: center; /* Centers text within the section */
+}
+
+.featured-header {
+    margin: 0 auto; /* Centers the header if it has a specific width */
+    padding: 20px 0; /* Optional: Adds vertical spacing */
+}
+
 .image-row {
     display: flex;
     justify-content: space-between;
